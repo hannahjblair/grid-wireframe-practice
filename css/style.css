@@ -74,7 +74,21 @@ footer {
 
     .column-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .container3 {
+        display: grid;
         grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr afr;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    p {
+        display: none;
     }
 }
