@@ -27,7 +27,6 @@ header {
     margin: .5em;
     border-radius: 15px;
     display: grid;
-    /* grid-template-rows: repeat(auto-fit); */
 
 }
 
@@ -73,22 +72,28 @@ footer {
     }
 
     .column-container {
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        align-items: center;
+        align-items: end; */
         justify-items: center;
+        align-items: Center;
     }
 
     .container3 {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr afr;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: end;
     }
 }
 
 @media screen and (max-width: 913px) {
     p {
         display: none;
+        margin: 0;
+        padding: 0;
+        height: 0;
+        overflow: hidden;
     }
 }
