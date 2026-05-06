@@ -71,20 +71,16 @@ footer {
         grid-template-columns: 1fr 2fr 1fr;
     }
 
-    .column-container {
-        /* display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        align-items: end; */
-        justify-items: center;
-        align-items: Center;
-    }
-
     .container3 {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
         grid-template-columns: 1fr 1fr 1fr;
         align-items: end;
+    }
+
+    p {
+        justify-self: center;
+        align-self: end;
     }
 }
 
@@ -94,6 +90,5 @@ footer {
         margin: 0;
         padding: 0;
         height: 0;
-        overflow: hidden;
     }
 }
